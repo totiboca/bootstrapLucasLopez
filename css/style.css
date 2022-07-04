@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1,
+h2,
+h3{
+	font-family: "Roboto",sans-serif;
+    color: #1E0CA8;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+p{
+	color: #1B0F8B;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.bg-blue {
+	background-color: #CECEC4;
+}
+
+#botonera img{
+	width: 100px;
+}
+
+.text-blue{
+	color: #1E0CA8; ;
+}
+
+.btn-green {
+	background-color: green;
+}
+
+
+@media (min-width: 280px) and (max-width: 300px) {
+	 #botonera img{
+	width: 75px;
+}
+}
