@@ -41,6 +41,20 @@ p{
 	background-color: green;
 }
 
+@keyframes animateC{
+  	0%{width: 220px;background-color: yellow;}
+  	50%{width: 220px;background-color: red;}
+    100%{width: 220px	;background-color: green;}  	
+  }
+
+.Animate{
+        animation-name: animateC;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-duration: 5s;
+    }
+
 
 @media (min-width: 280px) and (max-width: 300px) {
 	 #botonera img{
